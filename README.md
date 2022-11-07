@@ -22,7 +22,7 @@ Resources: images
 
 Since we want to be able to predict if an investment will be successful, we will use that column as our y variable. The column name is "IS_SUCCESSFUL".
 
-!['1']()
+!['1'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/1.png)
 
 - What variable(s) are considered to be the features of your model?
 
@@ -30,7 +30,7 @@ For defining the final features, the preprocessing step was key. We reviewed the
 
 "NAME", "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "ORGANIZATION", "INCOME_AMT"
 
-!['2']()
+!['2'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/2.png)
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 
@@ -40,7 +40,7 @@ For the next features, we counted their values and reviewed their density. We no
 
 ASK_AMT, SPECIAL_CONSIDERATIONS, STATUS, USE_CAS
 
-!['3']()
+!['3'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/3.png)
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -54,7 +54,7 @@ Activation functions - We kept ReLU for our two models because of the nature of 
 
 Epochs - We reduced from 100 to 50, since from that number the accuracy or the loss remains within the same range. 
 
-!['4']()
+!['4'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/4.png)
 
 - Were you able to achieve the target model performance?
 
@@ -66,13 +66,13 @@ In addition, we evaluated the data with a random forest (n_estimators=128, rando
 
 [See the "AlphabetSoupCharity_Trials", line 24]
 
-!['7']() 
+!['7'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/7.png) 
 
 - What steps did you take to try and increase the model performance?
 
 After several trials of changing the neural network model (the layers, neurons, and activation functions), we noticed that the model wasn't improving almost anything. So, we went one step before analyzing each of our X features. Before deleting anything, we analyzed the unique values in each variable. In that step, we realized that the name was an identification column but not a key value, therefore, it wasn't necessary to delete it. 
 
-!['6']()
+!['6'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/6.png)
 
 ### Summary
 
