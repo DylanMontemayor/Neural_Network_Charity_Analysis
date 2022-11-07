@@ -60,7 +60,7 @@ Epochs - We reduced from 100 to 50, since from that number the accuracy or the l
 
 We were able to achieve a model performance of **over 0.79** (accuracy) within the preprocessing step. 
 
-!['5']()
+!['5'](https://github.com/DylanMontemayor/Neural_Network_Charity_Analysis/blob/main/Resources/5.png)
 
 In addition, we evaluated the data with a random forest (n_estimators=128, random_state = 78) and we got the same result. Random forest predictive accuracy = 0.792
 
